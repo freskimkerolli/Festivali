@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DritaFest — Website i Festivalit Ndërkombëtar të Filmit
 
-## Getting Started
+Website informativ për **DritaFest**, një festival filmi (fiktiv, si projekt shembull) i frymëzuar nga struktura e faqeve të festivaleve reale si PriFest. Sajti shërben për të prezantuar programin e shfaqjeve, filmat pjesëmarrës, mysafirët/jurinë, informacionin për bileta, dhe të dhënat e kontaktit.
 
-First, run the development server:
+## Përmbajtja e Sajtit
+
+| Faqja | Përshkrimi |
+|---|---|
+| `/` | Ballina — hero me numërues mbrapsht, statistika, filma të veçuar, vendndodhjet |
+| `/programi` | Orari i plotë i shfaqjeve, i grupuar sipas ditësh |
+| `/filmat` | Lista e filmave me filtrim sipas kategorisë |
+| `/filmat/[slug]` | Faqja e detajeve për secilin film (përmbledhje, regjisor, projeksione) |
+| `/mysafiret` | Juria dhe të ftuarit e festivalit |
+| `/bileta` | Çmimet e biletave dhe vendndodhjet e sallave |
+| `/rreth-nesh` | Historia, vlerat dhe kronologjia e festivalit |
+| `/kontakt` | Formë kontakti dhe informacione |
+
+Të dhënat e festivalit (filma, orare, mysafirë, vende, çmime) janë të centralizuara në `src/lib/data.ts` — për të ndryshuar përmbajtjen (emra, data, filma të rinj), mjafton të përditësohet ky skedar, pa prekur komponentët.
+
+## Teknologjitë
+
+- **[Next.js 16](https://nextjs.org)** (App Router) — framework-u kryesor
+- **[React 19](https://react.dev)** — libraria e ndërfaqes
+- **[TypeScript](https://www.typescriptlang.org)** — tipizim statik
+- **[Tailwind CSS v4](https://tailwindcss.com)** — stilizimi
+- **ESLint** — kontrolli i cilësisë së kodit
+
+## Zhvillimi Lokal
+
+Instalo varësitë dhe nis serverin e zhvillimit:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Hap [http://localhost:3000](http://localhost:3000) në shfletues. Faqja rifreskohet automatikisht kur ndryshon kodin.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Komanda të tjera
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build   # build për prodhim
+npm run start   # nis serverin e ndërtuar
+npm run lint    # kontrollon kodin me ESLint
+```
 
-## Learn More
+## Struktura e Projektit
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+  app/            # faqet (App Router)
+  components/     # komponentë të ripërdorshëm (Header, Footer, FilmCard, etj.)
+  lib/data.ts     # të dhënat e festivalit (filma, orare, mysafirë, vende)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projekti mund të publikohet lehtësisht në [Vercel](https://vercel.com/new) — mjafton lidhja e repository-t.
