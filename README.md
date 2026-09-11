@@ -1,6 +1,6 @@
-# DritaFest — Website i Festivalit Ndërkombëtar të Filmit
+# Festivali — Website i Festivalit Ndërkombëtar të Filmit
 
-Website informativ për **DritaFest**, një festival filmi (fiktiv, si projekt shembull) i frymëzuar nga struktura e faqeve të festivaleve reale si PriFest. Sajti shërben për të prezantuar programin e shfaqjeve, filmat pjesëmarrës, mysafirët/jurinë, informacionin për bileta, dhe të dhënat e kontaktit.
+Website informativ për **Festivali**, një festival filmi (fiktiv, si projekt shembull) i frymëzuar nga struktura e faqeve të festivaleve reale si PriFest. Sajti shërben për të prezantuar programin e shfaqjeve, filmat pjesëmarrës, mysafirët/jurinë, informacionin për bileta, dhe të dhënat e kontaktit.
 
 ## Përmbajtja e Sajtit
 

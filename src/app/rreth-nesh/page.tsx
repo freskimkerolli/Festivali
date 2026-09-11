@@ -2,9 +2,9 @@ import PageHero from "@/components/PageHero";
 import { festival } from "@/lib/data";
 
 const timeline = [
-  { year: "2015", text: "Edicioni i parë i DritaFest mbahet në një kinema të vetme, me 12 filma nga rajoni." },
+  { year: "2015", text: "Edicioni i parë i Festivalit mbahet në një kinema të vetme, me 12 filma nga rajoni." },
   { year: "2018", text: "Festivali zgjerohet me konkurrim ndërkombëtar dhe programin 'Të Rinjtë'." },
-  { year: "2021", text: "Shtohet programi 'Dokumentar' dhe DritaFest fillon të organizojë punëtori për filmbërës të rinj." },
+  { year: "2021", text: "Shtohet programi 'Dokumentar' dhe Festivali fillon të organizojë punëtori për filmbërës të rinj." },
   { year: "2026", text: "Edicioni i 12-të sjell filma nga mbi 15 shtete në tre salla shfaqjeje njëkohësisht." },
 ];
 

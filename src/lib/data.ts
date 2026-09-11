@@ -1,12 +1,12 @@
 export const festival = {
-  name: "DritaFest",
-  fullName: "Festivali Ndërkombëtar i Filmit — DritaFest",
+  name: "Festivali",
+  fullName: "Festivali Ndërkombëtar i Filmit",
   edition: "Edicioni i 12-të",
   dates: "15–20 Tetor 2026",
   city: "Prishtinë, Kosovë",
   tagline: "Aty ku dritat e ekranit takojnë dritat e qytetit.",
   description:
-    "DritaFest është festivali vjetor i filmit që sjell në një vend regjizorë, aktorë dhe dashamirës të kinemasë nga e gjithë bota. Për gjashtë ditë, qyteti shndërrohet në një skenë të gjallë kinemaje: premiera, biseda me krijues, punëtori dhe netë të hapura projeksionesh.",
+    "Festivali është festivali vjetor i filmit që sjell në një vend regjizorë, aktorë dhe dashamirës të kinemasë nga e gjithë bota. Për gjashtë ditë, qyteti shndërrohet në një skenë të gjallë kinemaje: premiera, biseda me krijues, punëtori dhe netë të hapura projeksionesh.",
   email: "info@dritafest.example",
   phone: "+383 44 000 000",
   address: "Rr. e Kinemasë 7, 10000 Prishtinë",

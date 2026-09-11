@@ -98,7 +98,7 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-20 text-center">
-        <h2 className="font-display text-3xl text-white sm:text-4xl">Bëhu Pjesë e DritaFest 2026</h2>
+        <h2 className="font-display text-3xl text-white sm:text-4xl">Bëhu Pjesë e Festivalit 2026</h2>
         <p className="mx-auto mt-4 max-w-xl text-neutral-400">
           Nga premierat botërore te bisedat pas-projeksionit me regjizorët — çdo natë sjell diçka të re. Rezervo vendin tënd sot.
         </p>
